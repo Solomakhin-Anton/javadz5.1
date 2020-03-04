@@ -57,7 +57,7 @@ class BonusServiceTest {
     }
 
     @Test
-    void shouldCalculateForRegisteredAndNull() {
+    void shouldCalculateForRegisteredAndZero() {
         BonusService service = new BonusService();
 
         long amount = 0;
@@ -70,7 +70,7 @@ class BonusServiceTest {
     }
 
     @Test
-    void shouldCalculateForUnregisteredAndNull() {
+    void shouldCalculateForUnregisteredAndZero() {
         BonusService service = new BonusService();
 
         long amount = 0;
